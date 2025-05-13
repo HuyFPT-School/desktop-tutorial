@@ -1,0 +1,129 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.center{
+    text-align: center;
+    color: #00539b;
+    font-size: 50px;
+}
+.header_list ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(230, 230, 230, 0.781);
+    height: 50px;
+}
+.header_list ul li a {
+    text-decoration: none;
+    color: #00539b;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.header_list ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+.col-6 .bg {
+    background-color: rgba(230, 230, 230, 0.781);
+    padding: 20px;
+}
+.bg {
+    background-color: rgba(230, 230, 230, 0.781);
+}
+.space {
+    margin-right: 20px;
+}
+.img_list1 .col-2{
+    display: block;
+    width: 15%;
+}
+.boxshow2 p {
+    margin: 30px 0;
+}
+.col-4 {
+    padding: 0px 25px;
+    font-size: 20px;
+}
+.boxshow {
+    box-shadow: 0.3px 0.3px 6.3px 0.3px black;
+    padding: 20px;
+}
+.boxshow1 {
+    border: 1px solid rgba(230, 230, 230, 0.781);
+    margin-left: 10px;
+}
+.boxshow1 img {
+    margin-left: 10px;
+}
+.seller p {
+    border-bottom: 1px solid rgba(230, 230, 230, 0.781);
+    margin: 40px 0;
+}
+.sales {
+    text-align: center;
+    box-shadow: 0.3px 0.3px 6.3px 0.3px black;
+    margin: 0 20px;
+}
+.list_img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxshow2 {
+    box-shadow: 0.3px 0.3px 6.3px 0.3px black;
+    padding: 0px 0px 20px 10px;
+}
+.note {
+    color: white;
+    background-color: orange;
+    height: 40px;
+    line-height: 40px;
+}
+.sales p {
+    color: red;
+    padding: 40px 0;
+}
+.img_feelback {
+    border-radius: 100%;
+    margin: 30px;
+    width: 10%;
+}
+.star img {
+    width: 150px;
+}
+.text_feelback {
+    margin-top: 30px;
+}
+.footer {
+    background-color: #15a6eb;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
