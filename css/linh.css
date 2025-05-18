@@ -2,4 +2,8 @@
     content: "";
     clear: both;
     display: table;
+    appearance: none;
+    align-self: first baseline
+    
+    first baseline;
 }
