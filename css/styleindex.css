@@ -77,7 +77,7 @@
   padding: 20px;
 }
 .bg {
-  background-color: rgba(230, 230, 230, 0.781);
+  background-image: linear-gradient(to bottom, #F0FDF4,#FDFEFD);
 }
 .space {
   margin-right: 20px;
