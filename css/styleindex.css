@@ -64,10 +64,7 @@
   padding: 10px 20px;
   font-size: 20px;
 }
-.header_list ul li {
-  display: inline-block;
-  line-height: 50px;
-}
+
 .col-6 .bg {
   background-color: rgba(230, 230, 230, 0.781);
   padding: 20px;
