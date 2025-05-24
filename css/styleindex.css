@@ -51,11 +51,7 @@
     width: 100%;
   }
 }
-.center {
-  text-align: center;
-  color: #00539b;
-  font-size: 50px;
-}
+
 .header_list ul {
   list-style: none;
   text-align: center;
@@ -77,7 +73,7 @@
   padding: 20px;
 }
 .bg {
-  background-color: rgba(230, 230, 230, 0.781);
+  background-image: linear-gradient(to bottom, #f0fdf4, #fdfefd);
 }
 .space {
   margin-right: 20px;
